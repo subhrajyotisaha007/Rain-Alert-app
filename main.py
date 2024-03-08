@@ -1,12 +1,12 @@
 import requests
 import smtplib
 
-my_email = 'test001saha@gmail.com'
-passw = 'ghqligvctzfftjop'
+my_email = 'shshshshs@gmail.com'
+passw = '123456'
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/forecast"
-api_key = "ad9c268435b4ee3d5ac2bbb3bfba1ab4"
-MY_LAT = '51.507351'#'36.852924'
-MY_LNG = '-0.127758'#'-75.977982'
+api_key = "12234444"
+MY_LAT = '89.222'
+MY_LNG = '78.939'
 parameters = {
     'appid' : api_key,
     'lat' : MY_LAT,
@@ -39,4 +39,4 @@ if will_rain:
     with smtplib.SMTP('smtp.gmail.com',587) as connection:
         connection.starttls()
         connection.login(user=my_email,password=passw)
-        connection.sendmail(from_addr=my_email,to_addrs='test001saha@yahoo.com',msg='Subject: Rain alert\n\nBring Umbrella please ')
+        connection.sendmail(from_addr=my_email,to_addrs='sksksksks@yahoo.com',msg='Subject: Rain alert\n\nBring Umbrella please ')
