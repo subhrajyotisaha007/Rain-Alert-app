@@ -23,10 +23,7 @@ print(data)
 wether_data_4times = data['list']
 #print(len(wether_data_4times))
 
-# for each in range(0,len(wether_data_4times)):
-#     print(wether_data_4times[each]['weather'][0]['id'])
-#     if wether_data_4times[each]['weather'][0]['id'] < 700:
-#         print('Bring Umbrella')
+
 will_rain = False
 
 for each_hour in wether_data_4times:
